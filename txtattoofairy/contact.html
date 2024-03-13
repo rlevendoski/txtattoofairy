@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Texas Tattoo Fairy, Texas Tattoos, Tattoo gallery">
+        <link rel="stylesheet" href="txtattoofairy.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Texas Tattoo Fairy ᖭི༏ᖫྀ Contact</title>
+        <script>
+          function validatePhone() {
+          var phoneNumber = document.getElementById("myPhone").value;
+          var phoneRegex = /^\d{3}-\d{3}-\d{4}$/;
+          if (document.forms[0].myPhone.value == "" ) {
+              alert("Phone field cannot be empty.");
+          return false;
+          } // end if
+          // Function to validate phone number format
+          if (!phoneRegex.test(phoneNumber)) {
+              alert("Please enter phone number in XXX-XXX-XXXX format only");
+          return false;
+          } // end function validatePhone
+      }
+      </script>
+    </head>
+    <body>
+      <header><a href="index.html"><img class= "fit-picture" src="txtattoofairybanner.png"></a>
+        
+<div class="topnav">
+  <a href="index.html" class="active">Home</a>
+  <div id="myLinks">
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="gallery.html">Gallery</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<div id="home">
+    
+        <main><hr>
+          <h2>Contact</h2>
+          <p>Please feel free to reach out to us with any questions or comments.<br>
+          Required fields are marked with an asterisk*.</p>
+          <form method="post" action="https://webdevbasics.net/scripts/demo.php"
+              onsubmit="return validatePhone();">
+              <label for="Name">*Preferred Name:</label>
+                  <input type="text" name="Name" id="Name" required>
+              <label for="Email">*E-mail:</label>
+                  <input type="text" name="Email" id="Email" required>
+              <label for="Phone">Phone:</label>
+                  <input type="text" name="Phone" id="Phone">
+              <label for="prefCon">*Preferred Method of Contact:</label>
+                  <select name="prefCon" id="prefCon" required>
+                          <option value="">Select One</option>
+                          <option value="optEmail">Email</option>
+                          <option value="optPhone">Phone</option>
+                  </select>
+              <label for="myComments">*Questions or Comments:</label>
+                  <textarea name="myComments" id="myComments" rows="2" cols="20" required></textarea>
+                  <input type="submit" value="Submit">
+          </form>
+        </main>
+        <hr>
+        <br>
+        <!-- logo placeholder <a href="index.html"><img src="logo.png" height="50" width="50" alt="A white C overlaying a pink C - the Culture Collectibles logo."></a> -->
+    <footer>
+      Copyright &copy;2024 🌧 Raenyday Designs<br>
+      <a href="mailto:placeholder@email.com">placeholder@email.com</a>
+    </footer>
+</div>
+</body>
+</html>
