@@ -7,12 +7,12 @@ body {background: #FFDBAA;
     font-size: large;
     text-align: center;
     margin: auto;
-    padding-top: 60px;}
+    padding-top: 45px;}
 header  {width: 100%;
     font-family:Verdana, Tahoma, sans-serif;}
 header a {text-decoration: none;}
 header a:link {color: #000000;}
-header a:visited {color: #034E47;}
+header a:visited {color: #000000;}
 header a:hover {color: #FFB7B7;}
 
 .topnav {overflow: hidden;
@@ -205,16 +205,11 @@ video {width: 100%;
     .responsive {display: inline-block;
         width: 50%;
         margin: 6px 0;}
-        .container {
+    .container {
     position: relative;
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%;}
-    .container {
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        padding-top: 56.25%;}
     .responsive-iframe {
             position: absolute;
             top: 0;
