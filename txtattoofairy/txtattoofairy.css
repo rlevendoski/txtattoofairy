@@ -4,16 +4,16 @@ body {background: #FFDBAA;
     height: 5000px;
     color: #000;
     font-family: Verdana, Tahoma, sans-serif;
-    font-size: large;
+    font-size: ;
     text-align: center;
     margin: auto;
     padding-top: 60px;}
 header  {width: 100%;
     font-family:Verdana, Tahoma, sans-serif;}
 header a {text-decoration: none;}
-header a:link {color: #22A699;}
+header a:link {color: #000000;}
 header a:visited {color: #034E47;}
-header a:hover {color: #F24C3D;}
+header a:hover {color: #FFB7B7;}
 
 .topnav {overflow: hidden;
     background-color: #72956E;
