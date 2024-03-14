@@ -70,22 +70,13 @@ div.desc {padding: 15px;
 #about {height: 300px;    
     background-size: 200% 100%;
     background-repeat: no-repeat;}
-#clean {height: 300px;       
-    background-size: 200% 100%;
-    background-repeat: no-repeat;}
 #contact {height: 300px;       
     background-size: 200% 100%;
     background-repeat: no-repeat;}
-#display {height: 300px;       
+#gallery {height: 300px;       
     background-size: 200% 100%;
     background-repeat: no-repeat;}
 #home {height: 300px;       
-    background-size: 200% 100%;
-    background-repeat: no-repeat;}
-#repair {height: 300px;       
-    background-size: 200% 100%;
-    background-repeat: no-repeat;}
-#storage {height: 300px;       
     background-size: 200% 100%;
     background-repeat: no-repeat;}
 
@@ -155,22 +146,13 @@ video {width: 100%;
     #about {height: 300px;       
         background-size: 100% 100%;
         background-repeat: no-repeat;}
-    #clean {height: 300px;       
-        background-size: 100% 100%;
-        background-repeat: no-repeat;}
     #contact {height: 300px;       
         background-size: 100% 100%;
         background-repeat: no-repeat;}
-    #display {height: 300px;       
+    #gallery {height: 300px;       
         background-size: 100% 100%;
         background-repeat: no-repeat;}
     #home {height: 300px;       
-        background-size: 100% 100%;
-        background-repeat: no-repeat;}
-    #repair {height: 300px;       
-        background-size: 100% 100%;
-        background-repeat: no-repeat;}
-    #storage {height: 300px;       
         background-size: 100% 100%;
         background-repeat: no-repeat;}
     .fit-picture {max-width: 100%; max-height: 60%;}
